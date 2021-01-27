@@ -13,7 +13,7 @@ git clone https://github.com/niemet0502/github-clone.git
 * Change directory to the project
 
 ```bash
-cd twitter-clone
+cd github-clone
 ```
 
 * Install dependencies
