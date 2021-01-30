@@ -1,0 +1,23 @@
+.Body{
+  width: 87.5%;
+  margin-right: 10%;
+  border: 1px solid red;
+  margin-left: 2.5%;
+  display: flex;
+}
+.Body__profilInfos{
+  width: 35%;
+  border: 1px solid green;
+}
+
+.Body__repos{
+  width: 65%;
+  border: 1px solid yellow;
+}
+
+@media screen and (max-width: 1244px){
+  .Body{
+    width: 95%;
+    margin-right: 2.5%;
+  }
+}

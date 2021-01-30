@@ -33,6 +33,7 @@
 .TabContent{
   width: 60%;
   height: 100%;
+  margin-right: 10%;
   padding-bottom: 0px;
   display: flex;
   justify-content: space-between;
