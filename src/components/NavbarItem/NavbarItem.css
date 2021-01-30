@@ -1,0 +1,8 @@
+.NavbarItem{
+  font-weight: 600;
+  margin-right: 15px;
+}
+.NavbarItem:hover{
+  cursor: pointer;
+  color: gray;
+}
