@@ -1,4 +1,23 @@
 
 .Navbar{
-  background-color: #24292E; 
+  background-color: #24292E;
+  color: white; 
+  padding: 16px;
+  display: flex;
+  align-items: center;
+  font-size: 14px;
+  justify-content: space-between;
+}
+
+.Navbar__GithubIcon{
+  font-size: 29px !important;
+  margin-left: 10px;
+}
+
+.Navbar_items_container{
+  display: flex;
+  align-items: center;
+}
+.Navbar_icons_container{
+  margin-right: 10px;
 }
