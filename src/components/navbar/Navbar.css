@@ -21,3 +21,19 @@
 .Navbar_icons_container{
   margin-right: 10px;
 }
+
+.header_search_input{
+  background-color: inherit;
+  border: 1px solid grey;
+  padding: 4px;
+  font-size: 14px;
+  padding-left: 7px;
+  margin-left: 15px;
+  border-radius: 4px;
+  width: 270px;
+  color: grey;
+}
+
+.github_svg{
+  margin-left: -25px;
+}
