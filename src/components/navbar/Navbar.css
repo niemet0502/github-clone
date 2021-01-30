@@ -8,6 +8,9 @@
   font-size: 14px;
   justify-content: space-between;
 }
+.large_menu_container{
+  display: flex;
+}
 
 .Navbar__GithubIcon{
   font-size: 29px !important;
@@ -20,6 +23,7 @@
 }
 .Navbar_icons_container{
   margin-right: 10px;
+  display: flex;
 }
 
 .header_search_input{
@@ -32,6 +36,12 @@
   border-radius: 4px;
   width: 270px;
   color: grey;
+}
+
+@media screen and (max-width:818px){
+  .header_search_input{
+    width: 220px;
+  }
 }
 
 .github_svg{
@@ -58,6 +68,22 @@
   margin-left: 10px;
 }
 
+.toggle_icon{
+  display: none !important;
+}
+
 .Navbar_icons_container .MuiSvgIcon-root.Right_Icon{
   margin-left: 10px;
+}
+
+@media screen and (max-width: 770px){
+  .toggle_icon{
+    display: block !important;
+  }
+  .large_menu_container{
+    display: none;
+  }
+  .ArrowIcon{
+    display:none !important;
+  }
 }
