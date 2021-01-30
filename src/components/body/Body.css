@@ -1,20 +1,43 @@
 .Body{
   width: 87.5%;
   margin-right: 10%;
-  border: 1px solid red;
+  
   margin-left: 2.5%;
   display: flex;
 }
 .Body__profilInfos{
   width: 35%;
-  border: 1px solid green;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
 .Body__repos{
   width: 65%;
-  border: 1px solid yellow;
 }
 
+.Body__profilInfos_name{
+  font-size: 25px;
+  margin-top: 15px;
+  color: var(--primaryTitleColor);
+}
+.Body__profilInfos_pseudo{
+  font-size: 20px;
+  margin-top: -20px;
+  color: var(--primaryTextColor);
+  font-weight: normal;
+}
+
+.Body__profilInfos_btnEdit{
+  width: 100%;
+  color: var(--primaryTextColor);
+  padding: 8px;
+  font-size: 15px;
+  border-radius: 5px;
+  border: 1px solid var(--primaryButtonColor);
+  background-color: var(--primaryBorderColor);
+  box-shadow: 2px;
+}
 @media screen and (max-width: 1244px){
   .Body{
     width: 95%;
