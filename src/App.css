@@ -1,0 +1,25 @@
+html {
+  --primaryBackgroundColor: white !important;
+  --primaryTextColor: rgb(250, 243, 243) !important;
+  --primaryButtonColor: #FAFBFC !important;
+}
+
+html.dark {
+  --primaryBackgroundColor: #0D1117 !important;
+  --primaryTextColor: #C9D1D9 !important;
+  --primaryButtonColor: #21262D !important;
+}
+
+.App {
+  background: var(--primaryBackgroundColor);
+  color: var(--primaryTextColor);
+  height: 2000px;
+}
+
+@media (prefers-color-scheme: dark) {
+  html {
+    --primaryBackgroundColor: #0D1117;
+    --primaryTextColor: #C9D1D9;
+    --primaryButtonColor: #21262D;
+  }
+}
