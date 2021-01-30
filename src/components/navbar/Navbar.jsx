@@ -4,6 +4,9 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import NotificationsNoneIcon from '@material-ui/icons/NotificationsNone';
 import AddIcon from '@material-ui/icons/Add';
 import NavbarItem from "../NavbarItem/NavbarItem"
+import ArrowDropDownIcon from '@material-ui/icons/ArrowDropDown';
+import profil from "../../assets/images/profil.jpg"
+
 function Navbar() {
   return (
     <div className="Navbar">
@@ -19,8 +22,11 @@ function Navbar() {
         </div>
       </div>
       <div className="Navbar_icons_container">
-        <NotificationsNoneIcon />
-        <AddIcon />
+        <NotificationsNoneIcon className="Right_Icon" />
+        <AddIcon className="Right_Icon" />
+        <ArrowDropDownIcon className=" ArrowIcon" />
+        <img src="https://avatars.githubusercontent.com/u/62050249?s=460&u=0e0a1c398dac0b29e7283b2626b7f5b71fbddd0f&v=4" alt="" className="header_profil"/>
+        <ArrowDropDownIcon className=" ArrowIcon" />
       </div>
     </div>
   )

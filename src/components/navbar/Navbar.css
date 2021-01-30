@@ -2,7 +2,7 @@
 .Navbar{
   background-color: #24292E;
   color: white; 
-  padding: 16px;
+  padding: 18px;
   display: flex;
   align-items: center;
   font-size: 14px;
@@ -40,4 +40,24 @@
 
 .NavbarItem__container{
   margin-left: 20px;
+}
+
+.Right_Icon{
+  font-size: 20px !important;
+}
+
+.ArrowIcon{
+  font-size: 17px !important;
+  margin-left: -5px !important;
+  margin-bottom: 3px;
+}
+
+.header_profil{
+  width: 20px;
+  border-radius: 50%;
+  margin-left: 10px;
+}
+
+.Navbar_icons_container .MuiSvgIcon-root.Right_Icon{
+  margin-left: 10px;
 }
