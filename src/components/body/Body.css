@@ -27,10 +27,32 @@
   color: var(--primaryTextColor);
   font-weight: normal;
 }
-
+.user_skils{
+  margin-top: 20px;
+  width: 100%;
+  display: flex;
+}
+.user_skils_item{
+  display: flex;
+  width: 33.33%;
+  align-items: center;
+}
+.user_skils_item h5{
+  font-size: 14px;
+  margin: 0px;
+  margin-right: 2px;
+  color: var(--primaryTextColor);
+}
+.user_skils_item h5 span{
+  color: var(--primaryTitleColor);
+}
+.user_skils_item_svg{
+  fill: var(--primaryTextColor);
+  margin-right: 5px;
+}
 .Body__profilInfos_btnEdit{
   width: 100%;
-  color: var(--primaryTextColor);
+  color: var(--primaryTitleColor);
   padding: 8px;
   font-size: 15px;
   border-radius: 5px;
