@@ -1,0 +1,47 @@
+.Tab{
+  width: 100%;
+  height: 100px;
+  border-bottom: 2px solid var(--primaryBorderColor);
+}
+
+.TabContent{
+  width: 60%;
+  margin-left: 30%;
+  height: 100%;
+  padding-bottom: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.Tab__items_container{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+}
+.toggle_mode{
+  display: flex;
+  align-items: flex-end;
+  height: 100%;
+  padding-bottom: 10px;
+}
+.TabContent h3{
+  margin: 0px;
+  color: var(--primaryTextColor);
+  font-size: 17px;
+  line-height: 30px;
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  padding: 10px;
+}
+.TabContent h3:first-child{
+  color: var(--primaryTitleColor);
+  border-bottom: 2px solid rgb(249, 130, 108);
+}
+.TabContent h3:first-child svg{
+  fill: var(--primaryTitleColor);
+}
+.TabContent h3 svg{
+  fill: var(--primaryTextColor);
+  margin-right: 10px;
+}
