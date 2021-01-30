@@ -1,6 +1,6 @@
 import React from 'react'
 
-function NavbarItem() {
+function NavbarItem({title}) {
   return (
     <div>
       
