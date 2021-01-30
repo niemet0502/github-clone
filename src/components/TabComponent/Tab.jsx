@@ -10,7 +10,7 @@ function Tab() {
         handleShow(true);
       } else handleShow(false);
 
-      if(window.scrollY > 150 ){
+      if(window.scrollY > 350 ){
         setshowProfil(true)
       }else setshowProfil(false)
     });
@@ -22,6 +22,12 @@ function Tab() {
 
   return (
     <div className={`Tab ${show && "tab_sticky"}`}>
+      <div className="user_infos">
+        <div className={`profil_infos ${showProfil && "showP"}`}>
+          <img src="https://avatars.githubusercontent.com/u/62050249?s=460&u=0e0a1c398dac0b29e7283b2626b7f5b71fbddd0f&v=4" alt="" className="header_profil" style={{width: "40px", height: "40px"}}/>
+          <h4>niemet0502</h4>
+        </div>
+      </div>
       <div className="TabContent" >
         <div className="Tab__items_container">
           <h3>

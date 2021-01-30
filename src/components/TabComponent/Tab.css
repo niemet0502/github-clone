@@ -5,11 +5,33 @@
   height: 100px;
   border-bottom: 2px solid var(--primaryBorderColor);
   background-color: var(--primaryBackgroundColor);
+  display: flex;
 }
-
+.user_infos{
+  width: 30%;
+  display: flex;
+  align-items: flex-end;
+  padding-left: 100px;
+  padding-bottom: 30px;
+}
+.profil_infos{
+  display: flex;
+  align-items: center;
+  margin-top: 5px;
+  display: none;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.showP{
+  display: flex !important;
+  transition: 0.5s;
+}
+.profil_infos h4{
+  margin: 0px;
+  color: var(--primaryTitleColor);
+}
 .TabContent{
   width: 60%;
-  margin-left: 30%;
   height: 100%;
   padding-bottom: 0px;
   display: flex;
@@ -66,6 +88,9 @@
   .TabContent{
     width: 90%;
     margin-left: 5%;
+  }
+  .user_infos{
+    display: none;
   }
 }
 
