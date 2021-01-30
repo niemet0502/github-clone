@@ -1,25 +1,30 @@
 html {
   --primaryBackgroundColor: white !important;
-  --primaryTextColor: rgb(250, 243, 243) !important;
+  --primaryTextColor: #6E7677 !important;
+  --primaryTitleColor: #959DA5!important;
   --primaryButtonColor: #FAFBFC !important;
+  --primaryBorderColor : #EAECEF !important;
 }
 
 html.dark {
   --primaryBackgroundColor: #0D1117 !important;
-  --primaryTextColor: #C9D1D9 !important;
+  --primaryTextColor: #6E7677 !important; 
+  --primaryTitleColor: #C9D1D9 !important;
   --primaryButtonColor: #21262D !important;
+  --primaryBorderColor : #21262D !important;
 }
 
 .App {
   background: var(--primaryBackgroundColor);
-  color: var(--primaryTextColor);
   height: 2000px;
 }
 
 @media (prefers-color-scheme: dark) {
   html {
     --primaryBackgroundColor: #0D1117;
-    --primaryTextColor: #C9D1D9;
+    --primaryTextColor: #6E7677 ; 
+    --primaryTitleColor: #C9D1D9 ;
     --primaryButtonColor: #21262D;
+    --primaryBorderColor : #0D1117;
   }
 }
