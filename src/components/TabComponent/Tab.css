@@ -93,6 +93,12 @@
   .user_infos{
     display: none;
   }
+  .Tab__items_container h3 {
+    font-size: 15px;
+  }
+  .Tab__items_container h3 svg {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 1244px){
