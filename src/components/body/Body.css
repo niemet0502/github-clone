@@ -66,3 +66,28 @@
     margin-right: 2.5%;
   }
 }
+
+.user_call{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  margin-top: 10px;
+}
+.user_call h5{
+  margin: 0px;
+  font-size: 15px;
+  color: var(--primaryTitleColor);
+  font-weight: normal;
+}
+
+.user_call svg{
+  margin-right: 5px;
+  font-size: 20px !important;
+  fill: var(--primaryTextColor);
+}
+
+@media screen and (max-width: 775px){
+  .Body__profilInfos{
+    display: none;
+  }
+}
