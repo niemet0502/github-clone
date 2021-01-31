@@ -1,6 +1,7 @@
 import React from 'react'
 import "./Body.css"
 import TwitterIcon from '@material-ui/icons/Twitter';
+import Repo from "../repo/Repo"
 function Body() {
   return (
     <div className="Body">
@@ -68,6 +69,16 @@ function Body() {
             <div className="Repo_container_header">
               <h5>Pinned</h5>
               <h5>Customize your pins</h5>
+            </div>
+
+            <div className="Repo_column">
+              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
+              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
+            </div>
+            
+            <div className="Repo_column">
+              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
+              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
             </div>
           </div>
         </div>

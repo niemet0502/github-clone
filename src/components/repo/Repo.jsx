@@ -1,5 +1,5 @@
 import React from 'react'
-
+import "./Repo.css"
 function Repo({title, description, language}) {
   return (
     <div className="Repo">
@@ -13,6 +13,7 @@ function Repo({title, description, language}) {
           {description}
         </p>
         <h4>
+          <div className="dot"></div>
           {language}
         </h4>
       </div>
