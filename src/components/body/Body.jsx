@@ -43,7 +43,9 @@ function Body() {
           </div>
         </div>
         <div className="Body__repos">
-        Marius
+          <div className="user_description">
+            Test
+          </div>
         </div>
     </div>
   )
