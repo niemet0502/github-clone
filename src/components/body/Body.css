@@ -86,11 +86,7 @@
   fill: var(--primaryTextColor);
 }
 
-@media screen and (max-width: 775px){
-  .Body__profilInfos{
-    display: none;
-  }
-}
+
 .Body__repos{
   padding-left: 20px;
 }
@@ -129,4 +125,25 @@
 }
 .pencil svg{
   margin-left: 10px;
+}
+
+.user_description ul{
+  padding-left: 30px;
+}
+.user_description ul li{
+  color: var(--primaryTextColor);
+}
+.user_description ul li a{
+  color: rgb(3, 102, 222);
+  text-decoration: none;
+}
+
+@media screen and (max-width: 775px){
+  .Body__profilInfos{
+    display: none;
+  }
+  .Body__repos{
+    width: 92%;
+    padding: 20px 0px;
+  }
 }
