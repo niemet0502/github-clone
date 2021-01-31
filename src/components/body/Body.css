@@ -96,5 +96,37 @@
 }
 .user_description{
   width: 100%;
-  border: 1px solid red;
+  border: 1px solid var(--primaryBorderColor);
+  margin-top: 30px;
+  border-radius: 5px;
+  padding: 5px 20px;
+}
+.user_description_profile{
+  display: flex;
+  align-items: center;
+  color: var(--primaryTextColor);
+  font-weight: normal;
+  margin: 12px;
+}
+.user_description_profile svg{
+  margin-right: 10px;
+  fill: var(--primaryTextColor);
+}
+
+.user_description_intro{
+  font-size: 20px;
+  margin: 0px;
+  margin-top: 5px;
+  margin-left: 12px;
+  color: var(--primaryTitleColor);
+}
+
+.user_description_header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pencil svg{
+  margin-left: 10px;
 }
