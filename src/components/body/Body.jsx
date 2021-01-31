@@ -73,12 +73,12 @@ function Body() {
 
             <div className="Repo_column">
               <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
-              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
+              <Repo title="netflix-clone" description="netflix ui clone with react and tmbd api for movie informations" language="Javascript" />
             </div>
-            
+
             <div className="Repo_column">
-              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
-              <Repo title="twitter-clone" description="This Repo contain twitter clone project made with React Js" language="Javascript" />
+              <Repo title="airbnb-clone" description="clone ui of airbnb" language="Javascript" />
+              <Repo title="frontend-montor-challenge" description="this repo contains all the frontend mentor challenges I did" language="Javascript" />
             </div>
           </div>
         </div>
