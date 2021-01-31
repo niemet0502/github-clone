@@ -64,6 +64,12 @@ function Body() {
               <li> 💬 Ask me about everything</li>
             </ul>
           </div>
+          <div className="Repo_container">
+            <div className="Repo_container_header">
+              <h5>Pinned</h5>
+              <h5>Customize your pins</h5>
+            </div>
+          </div>
         </div>
     </div>
   )
