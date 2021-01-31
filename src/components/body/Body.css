@@ -91,3 +91,10 @@
     display: none;
   }
 }
+.Body__repos{
+  padding-left: 20px;
+}
+.user_description{
+  width: 100%;
+  border: 1px solid red;
+}
