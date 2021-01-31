@@ -91,7 +91,7 @@
   padding-left: 20px;
 }
 .user_description{
-  width: 100%;
+  width: 95%;
   border: 1px solid var(--primaryBorderColor);
   margin-top: 30px;
   border-radius: 5px;
@@ -146,4 +146,18 @@
     width: 92%;
     padding: 20px 0px;
   }
+}
+.Repo_container{
+  width: 100%;
+}
+
+.Repo_container_header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Repo_container_header{
+  font-weight: normal;
+  color: var(--primaryTextColor);
 }
