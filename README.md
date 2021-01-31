@@ -33,4 +33,4 @@ npm start
 <img width="90%" src="src/assets/images/dark-mode.PNG">
 <br>
 <img width="90%" src="src/assets/images/light-mode.PNG">
-<a href="https://twitter-clone-mar.netlify.app/" target="_blank">Live</a>
+<a href="https://m-github-profile-clone.netlify.app/" target="_blank">Live</a>
