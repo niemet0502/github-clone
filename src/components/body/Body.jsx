@@ -58,7 +58,11 @@ function Body() {
 
             <h2 className="user_description_intro">Hi there i'm Marius NIEMET 👋</h2>
             <h5 className="user_description_profile">Here are some ideas to get you started:</h5>
-
+            <ul>
+              <li>🔭 I’m currently working on <a href="">Fleeti</a>  </li>
+              <li> 🌱 I’m currently learning <a href="">React</a>, <a href="">React Native</a>  and <a href="">Laravel</a> </li>
+              <li> 💬 Ask me about everything</li>
+            </ul>
           </div>
         </div>
     </div>
