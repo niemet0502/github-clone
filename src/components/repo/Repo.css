@@ -1,6 +1,43 @@
 .Repo{
-  width: 49%;
+  width: 45%;
   border: 1px solid var(--primaryBorderColor);
   border-radius: 5px;
   margin-bottom: 20px;
+  padding: 15px;
+}
+.Repo p{
+  color: var(--primaryTextColor);
+  font-size: 14px;
+}
+.Repo_header{
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Repo_header h5{
+  margin: 0px;
+  display: flex;
+  align-items: center;
+  color: rgb(3, 102, 222);
+}
+.Repo_header h5 svg{
+  margin-right: 10px;
+}
+.Repo_header svg{
+  fill: var(--primaryTextColor);
+}
+.Repo h4{
+  margin: 0px;
+  color: var(--primaryTextColor);
+  font-weight: normal;
+  display: flex;
+  align-items: center;
+}
+.dot{
+  width: 8px;
+  height: 8px;
+  background-color: yellow;
+  border-radius: 50%;
+  margin-right: 10px;
 }
